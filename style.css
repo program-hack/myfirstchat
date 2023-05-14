@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(150deg, green, rgb(32, 188, 32), green);
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 20px auto; 
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-block-first {
+    border-right: 1px solid black;
+    overflow: auto;
+    background: #3D3E3E;
+    width: 22%;
+    border-top-left-radius: 10px;
+    height: 94vh;
+    border-bottom-left-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 15px;
+}
+
+.main-block-first-header {
+    border-bottom: 2px solid white;
+    padding: 13px 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 18.6%;
+    backdrop-filter: blur(20px);
+    border-top-left-radius: 10px;
+}
+
+.icon-block {
+    display: flex;
+    gap: 8px;
+}
+
+.main-block-first-header-icon {
+    color: black;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    scale: 1.1;
+}
+
+.main-block-first-header-icon:hover {
+    box-shadow: 0 0 8px white;
+}
+
+.main-block-first-header-icon:focus {
+    scale: 0.95;
+}
+
+.main-block-first .main-block-first-header-first {
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-block-first-blocks {
+    padding-left: 10px;
+    padding-top: 65px;
+    padding-right: 8px;
+}
+
+#active {
+    background: rgb(106, 106, 106);
+}
+
+.main-block-first-blocks .block-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s linear;
+    padding: 5px;
+}
+
+.main-block-first-blocks .block-1:hover {
+    background: rgb(106, 106, 106);
+}
+
+.word-block {
+    padding-left: 10px;
+}
+
+.word-block .first {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.word-block .second {
+    font-size: 13px;
+    display: block;
+    color: rgb(158, 158, 158);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.block-1-first-1 {
+    font-size: 10px;
+    margin-top: -40px;
+    font-family: 'Poppins', sans-serif;
+    color: lightgray;
+    font-size: 13px;
+}
+
+.main-block-second {
+    width: 78%;
+    height: 94vh;
+    background: url(./image/whatsapp-logo-on-green-background-3d-render-free-photo.webp);
+    background-position: center;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    overflow: auto;
+    border-bottom-right-radius: 10px;
+}
+
+.main-block-second-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3D3E3E;
+    border-bottom: 1px solid black;
+    padding: 10px 15px;
+    position: fixed;
+    width: 71.6%;
+    border-top-right-radius: 10px;
+}
+
+.main-block-second-header-video {
+    color: black;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    scale: 1.1;
+}
+
+.main-block-second-header-icon-block {
+    display: flex;
+    gap: 6px;
+}
+
+.main-block-second-header-phone {
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    scale: 1.1;
+}
+
+.main-block-second-header-phone:hover {
+    box-shadow: 0 0 8px white;
+}
+
+.main-block-second-header-phone:focus {
+    scale: 0.95;
+}
+
+.main-block-second-header-video:hover {
+    box-shadow: 0 0 8px white;
+}
+
+.main-block-second-header-video:focus {
+    scale: 0.95;
+}
+
+.main-block-second-middle {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.main-block-second-first {
+    background: gray;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 15px;
+}
+
+.main-block-second-middle-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-block-second-bottom {
+    background: #3D3E3E;
+    position: fixed;
+    bottom: 23px;
+    padding: 10px 13px;
+    width: 71.9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-block-second-bottom-icon-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-block-second-bottom-icon {
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.2s linear;
+    border-radius: 4px;
+    scale: 1.1;
+}
+
+.main-block-second-bottom-icon:hover {
+    box-shadow: 0 0 8px white;
+}
+
+.main-block-second-bottom-icon:focus {
+    scale: 0.95;
+}
+
+.input {
+    width: 900px;
+    height: 30px;
+    background: none;
+    border: none;
+    outline: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input::placeholder {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom-icon-microphone {
+    color: black;
+    font-size: 27px;
+    padding: 4px;
+    border-radius: 4px;
+    transition: 0.2s linear;
+}
+
+.bottom-icon-microphone:hover {
+    box-shadow: 0 0 8px white;
+}
